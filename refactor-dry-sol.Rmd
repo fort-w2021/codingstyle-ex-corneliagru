@@ -1,9 +1,10 @@
 ## Frisch aus dem Trockner, gut für die *confidence*
 
-Denn ich drip drip drip drop. Hol' besser einen Wischmop
-
+Eine Funktion, die das Konfidenz intervall berechnen kann.
 ```{r}
+library(checkmate)
 confidence_interval <- function(x) {
+  assert_numeric(x)
   m <- mean(x)
   s <- sd(x)
   n <- length(x)
