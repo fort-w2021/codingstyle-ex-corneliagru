@@ -2,7 +2,12 @@
 
 ![](https://preview.redd.it/uwv0jb0ocfc11.png?width=640&crop=smart&auto=webp&s=7c973f5b8dcd09b5ef31008641bf6b9f9fccaa89){width=250px}
 
-Find the love of your life with this AI-machine-learning-big-data algorithm 
+Find the love of your life with this awesome-technology driven AI-machine-learning-big-data algorithm!
+
+
+
+Frage: gibt es noch eine Möglichkeit das noch kompakter zu machen?
+Wirkt immer noch sehr lang. Problem: Reihenfolge der Auswertungen muss beachtet werden
 
 ```{r, def-swipe-right}
 swipe_right <- function(swiper, profile) {
